@@ -1,1 +1,24 @@
 /* Add your CSS Below */
+.one div:nth-child(2) {
+    position: relative;
+    top: -20px;
+    left: 20px;
+
+}
+.two {
+    position: relative;
+}
+.two div:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 100px;
+
+}
+.three {
+    position: relative;
+}
+.three div:nth-child(1) {
+    position: fixed;
+    top: inherit;
+    right: 132px;
+}
